@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link rel="stylesheet" href="./estilos.css" />
+		<title>Mi primera página WEB con JS</title>
+		<script defer>
+			alert('Se ejecuta desde head');
+			// Forma #2 - Etiqueta script en Head
+		</script>
+
+		<!-- Forma # Archivo externo-->
+		<script defer src="./holaMundo.js"></script>
+	</head>
+
+	<body>
+		<h1>Hola Mundo!</h1>
+		<!--Forma #1 - Etiqueta script-->
+		<script>
+			// Notas importantes:
+			// - Javascript es sensible a mayusculas y minúsculas.Javascript
+			// - Respetar la sintaxis de ripo camel case. getElementById
+			// - Punto y coma al final de casda sentencia.Javascript
+
+			// Comentario de tipo linea
+			/*
+            Comentario de varias lineas 
+            (tipo bloque)
+        */
+			// El codigo comentado no se ejecuta
+			// alert ('EWsgte codigo no se ejecuta')
+
+			document.write('<h2>Hola Mundo!<H2>');
+			alert('Hola soy una alerta');
+			console.log('Hola, desde la consola');
+		</script>
+	</body>
+</html>
